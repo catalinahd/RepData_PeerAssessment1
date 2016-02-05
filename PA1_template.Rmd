@@ -1,5 +1,5 @@
 ---
-title: "Project1"
+title: "PA1_template"
 author: "Catalina Herrera"
 date: "February 4, 2016"
 output: html_document
@@ -128,9 +128,5 @@ qplot(interval,
       ylab = "Number of steps", 
       main = "") +
   facet_wrap(~ type_of_day, ncol = 1)
-
-
-
-
 ```
 
